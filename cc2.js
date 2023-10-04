@@ -5,7 +5,7 @@ const runButton = document.getElementById('run-button');
 const output = document.getElementById('output');
 
 // Event listener for the Run Code button
-runButton.addEventListener('click', () => {
+runButton.addEventListener('click', function()  {
     const code = codeEditor.value;
     const language = languageSelect.value;
     
